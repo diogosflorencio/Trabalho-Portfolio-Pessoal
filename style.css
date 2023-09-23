@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+/*background*/
+body{
+    background-color:  rgb(147, 192, 252);
+}
 /*cuidando da imagem*/
 .image{
     width: 150px;
@@ -21,7 +25,7 @@
     margin: 10px;
     box-shadow: 5px 5px gray;
     border: 2px solid black;
-    
+    background-color: rgb(255, 255, 255);
 }
 /*h2*/
 .about-me h2{
@@ -112,8 +116,15 @@ button:hover{
     bottom: 20px;
     left: 355px;
     border: solid 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px gray;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    /*background-image: url(imagens/background.png);
+    background-size: cover;*/
+
 }
-/*mobile conteudo padrao alateral*/
+/*mobile conteudo padrao embaixo*/
 @media (max-width: 750px){
     .conteudo-padrao{
         position: static;
@@ -124,19 +135,76 @@ button:hover{
         height: 93vh;
         border: solid 1px;
     }
-    
+}
+/* posicionando e estilizando a area de conteudo*/
+#conteudo{
+    padding: 2% 1% 0 1%;
+}
+#conteudo h1{
+    padding-bottom: 3%;
+    font-family: 'Trebuchet MS';
+    color: #020c16;
+}
+#conteudo h2{
+    padding-bottom: 1px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+}
+#conteudo p{
+    padding-bottom: 2%;
+    font-family: 'Courier New', Courier, monospace
+}
+/*estilizando os textos*/
+section h2 {
+    font-size: 24px;
+    color: #0073e6;
 }
 
-/* posicionando e estilizando o sobre mim*/
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
 
-.sobremim{
-  position: absolute;
-    top: 10px;
-    right: 10px;
-    bottom: 20px;
-    left: 355px;
-    border: solid 1px;
+/* estilizando os links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* estilizando cada um dos meus projetos. estão na tag de atigos*/
+article {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 
 
+/*estilizando um pouco o formulario*/
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 94%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color:rgb(130, 182, 250);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color:rgb(66, 142, 241);
+}
