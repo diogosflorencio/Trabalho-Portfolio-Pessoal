@@ -19,37 +19,118 @@
                 <p>Olá, me chamo Diogo. Sou um estudante de programação que pretende se tornar uma desenvolvedor fullstack e certamente não vou conseguir, mas tamo aí se iludindo até o dia da morte, tmj flw. </p>
             </div>
             <div class="links">
-                <button onclick="sobreMim()">
+                <button onclick="mostrarSobreMim();">
                     Sobre mim
                 </button>
-                <div id="sobremim" style="display: none;">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sunt deserunt nam eius fugiat, odit libero obcaecati voluptates iste dolorem, vel et eos. Omnis nobis earum iure debitis fugit aliquam.
-                </div>
-                <button>
+                <button onclick="mostrarFormacao();">
                     Formação
                 </button>
-                <div id="formacao" style="display: none;">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis temporibus quae consectetur atque quos laborum aperiam eius eum! Facilis possimus rem officiis numquam modi placeat tempore fuga blanditiis maiores voluptas.
-                </div>
-                <button>
+                <button onclick="mostrarPortfolio();">
                     Portifólio
                 </button>
-                <div id="portfolio" style="display: none;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, a? Accusantium dolorem illo ullam optio, eaque atque quidem corrupti ratione, nihil quos, eligendi error tempora distinctio unde alias est officiis.
-                </div>
-                <button>
+                <button onclick="mostrarContato();">
                     Contato
                 </button>
-                <div id="contato" style="display: none;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam minus, ipsum ipsa rem doloribus ea molestiae vitae similique maxime repellat. Praesentium iste minus iusto ad eius doloribus eaque ea ipsa.
-                </div>
-                <button>Outro Portfólio pessoal</button>
+                <button>Outro Portfólio pessoal (ainda não comecei)</button>
             </div>
         </aside>
         <section>
             <div id="conteudo" class="conteudo-padrao">
+                <div id="sobremim" style="display: none;">
+                    <h1>Sobre Mim</h1>
+                    <p>Olá, eu sou o Diogo, uma pessoa comum, mas com características que me destacam. Tenho uma sede insaciável por conhecimento e uma determinação constante para me superar a cada dia, buscando incessantemente o autodesenvolvimento.</p>
+                    
+                    <h2>Minhas Experiências</h2>
+                    <p>Participei de diversos cursos de programação, design e várias outras áreas diversas. Já realizei projetos profissionais, principalmente como freelancer.</p>
+                    
+                    <h2>Minhas Habilidades</h2>
+                    <p>Meu sonho é me tornar um programador. Possuo habilidades em orientação a objetos, banco de dados, Java, Python e também tenho algum conhecimento em HTML, CSS e JavaScript. Além disso, estou constantemente praticando e aprimorando meu inglês.</p>
+                    
+                    <h2>Meus Hobbies</h2>
+                    <p>Amo a série Harry Potter! Além disso, tenho grande interesse em atividades como ir à academia, sair com amigos, viajar, jogar video games e acompanhar séries, entre outros.</p>
+                    
+                    <h2>Minhas Conquistas</h2>
+                    <p>Estou trilhando o caminho para me tornar um programador e sinto que estou cada vez mais próximo desse objetivo. Minha conquista mais recente foi a conclusão bem-sucedida de um projeto complexo, onde fui responsável pelo desenvolvimento e pela implementação de um site. Foi um desafio e tanto, pois tive que lidar com tecnologias desconhecidas até então.</p>
+                    
+                    <h2>Minhas Expectativas Futuras</h2>
+                    <p>No futuro, tenho a expectativa de alcançar a fluência em inglês, trabalhar em um excelente emprego, morar nos Estados Unidos com minha família e desfrutar da vida ao máximo, como sempre faço!</p>
+                </div>
+                <div id="formacao" style="display: none;">
+                    <h1>Minha Formação</h1>
+                    <p>Minha trajetória educacional é marcada por dedicação e conquistas. Abaixo, compartilho algumas das minhas realizações acadêmicas:</p>
+                    
+                    <h2>Ensino Fundamental e Médio</h2>
+                    <p>Completei o ensino fundamental e médio com determinação, obtendo uma base sólida de conhecimentos gerais que serviram como alicerce para minha formação posterior.</p>
+                    
+                    <h2>Análise e Desenvolvimento de Sistemas</h2>
+                    <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNINTER. Este curso tem me proporcionado uma compreensão profunda da área de tecnologia da informação e programação.</p>
+                    
+                    <h2>Cursos Complementares</h2>
+                    <p>Buscando sempre aprimorar minhas habilidades, concluí cursos com o renomado professor Guanabara, incluindo o curso de Python. Além disso, participei do programa Alura ONE, que abrangeu 36 cursos de Java, JPA, JDBC, Maven, API REST, Spring Boot 3, Orientação a Objetos e outras tecnologias relevantes.</p>
+                    
+                    <h2>Alura - ONE</h2>
+                    <p>Através do programa Alura ONE, adquiri conhecimentos aprofundados em diversas áreas da programação, o que tem sido fundamental para o meu crescimento profissional.</p>
+                    
+                    <h2>Perspectivas Futuras</h2>
+                    <p>Minha jornada educacional continua, pois busco constantemente expandir meu conhecimento e habilidades. Estou focado em construir uma carreira sólida na área de tecnologia e contribuir para o desenvolvimento de soluções inovadoras.</p>
+                </div>
                 
+                <div id="portfolio" style="display: none;">
+                    <h1>Meu Portfólio</h1>
+                    <h2>Projetos</h2>
+
+                    <article>
+                        <h3>Repositório do Site para Amiga do Exterior</h3>
+                        <p>Este projeto consiste em um site desenvolvido para uma amiga que vive no exterior. <a href="https://github.com/diogosflorencio/faxina" target="_blank" rel="noopener noreferrer">Link para o repositório.</a></p>
+                    </article>
+            
+                    <article>
+                        <h3>Desafio One: Conversor AluraOracleONE</h3>
+                        <p>Neste desafio, trabalhei em um conversor como parte do curso AluraOracleONE. <a href="https://github.com/diogosflorencio/Conversor-AluraOracleONE" target="_blank" rel="noopener noreferrer">Link para o repositório.</a></p>
+                    </article>
+            
+                    <article>
+                        <h3>Treinando em Java e OO</h3>
+                        <p>Este projeto envolveu práticas em Java e Programação Orientada a Objetos (OO). <a href="https://github.com/diogosflorencio/my-own-bank" target="_blank" rel="noopener noreferrer">Link para o repositório.</a></p>
+                    </article>
+            
+                    <article>
+                        <h3>Praticando HTML, CSS e JS</h3>
+                        <p>Neste repositório, pratiquei desenvolvimento web, incluindo HTML, CSS e JavaScript. <a href="https://github.com/diogosflorencio/praticando-html-css-js" target="_blank" rel="noopener noreferrer">Link para o repositório.</a></p>
+                    </article>
+            
+                    <article>
+                        <h3>Decodificador AluraOracleONE</h3>
+                        <p>Este projeto envolve a decodificação de algum tipo, possivelmente relacionado a um curso ou desafio da AluraOracleONE. <a href="https://github.com/diogosflorencio/Decodificador-AluraOracleONE" target="_blank" rel="noopener noreferrer">Link para o repositório.</a></p>
+                    </article>
+            
+                    <article>
+                        <h3>My Own Paint</h3>
+                        <p>My Own Paint é um projeto que inclui uma aplicação de pintura. <a href="https://github.com/diogosflorencio/my-own-paint" target="_blank" rel="noopener noreferrer">Link para o repositório.</a></p>
+                    </article>
+                </div>
+                
+                <div id="contato" style="display: none;">
+                    <h1>Meu contato</h1>
+                    <p>Se você quiser entrar em contato comigo, fique à vontade para me enviar uma mensagem! Basta preencher o formulário abaixo:</p>
+                    
+                    <form>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        
+                        <input type="submit" value="Enviar Mensagem">
+                    </form>
+                    
+                    <p>Juro solenemente responder a toda e qualquer mensagem!</p>
+                </div>
             </div>
+            
         </section>
     </main>
 </body>
