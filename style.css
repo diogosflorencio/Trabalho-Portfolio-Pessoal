@@ -185,12 +185,6 @@ input[type="submit"]:hover {
       margin-top: 10px;
     }
 }
-@media (max-height: 820px){
-    button{
-      margin-top: 5px;
-    }
-}
-
 /*mobile widgt*/
 @media (max-width: 1224px){
     .about-profile{
