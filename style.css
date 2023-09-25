@@ -169,17 +169,23 @@ input[type="submit"]:hover {
 
 /*mobile altura e alinhamento com vw e vh*/
 
-@media (max-height: 929px){
-    button{
-      margin-top: 25px;
-    }
-}
 @media (max-width: 500px){
     button{
         width: 82vw;
     }
     .image{
         width: 45vw;
+    }
+    .conteudo-padrao{
+        max-height: 95vh;
+        overflow-y: auto;
+    }
+}
+
+  
+@media (max-height: 929px){
+    button{
+      margin-top: 25px;
     }
 }
 @media (max-height: 900px){
