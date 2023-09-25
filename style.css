@@ -169,6 +169,9 @@ input[type="submit"]:hover {
     button{
       margin-top: 25px;
     }
+    .conteudo-padrao{
+        height: 170vh;
+    }
 }
 @media (max-height: 900px){
     button{
@@ -192,10 +195,10 @@ input[type="submit"]:hover {
         left: 6px;
     }
     .conteudo-padrao{
+        height: 170vh;
         position: static;
         margin-top: 20px;
         width: 305px;
-        height: 170vh;
         padding: 15%;
         margin-left: 16px;
     }
