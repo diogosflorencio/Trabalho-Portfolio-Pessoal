@@ -172,12 +172,14 @@ input[type="submit"]:hover {
 @media (max-height: 929px){
     button{
       margin-top: 25px;
-      width: 82vw;
+    }
+}
+@media (max-width: 500px){
+    button{
+        width: 82vw;
     }
     .image{
-        
         width: 45vw;
-
     }
 }
 @media (max-height: 900px){
