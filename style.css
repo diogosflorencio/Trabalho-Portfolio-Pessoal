@@ -167,11 +167,17 @@ input[type="submit"]:hover {
     background-color:rgb(66, 142, 241);
 }
 
-/*mobile height*/
+/*mobile altura e alinhamento com vw e vh*/
 
 @media (max-height: 929px){
     button{
       margin-top: 25px;
+      width: 82vw;
+    }
+    .image{
+        
+        width: 45vw;
+
     }
 }
 @media (max-height: 900px){
@@ -194,12 +200,13 @@ input[type="submit"]:hover {
     .about-profile{
         position: relative;
         left: 6px;
+        width: 82vw;
     }
     .conteudo-padrao{
         height: 170vh;
         position: static;
         margin-top: 20px;
-        width: 305px;
+        width: 82vw;
         padding: 15%;
         margin-left: 16px;
     }
