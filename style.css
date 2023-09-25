@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+/*para fazer rolagem mais suave quando usado as ancoras dos botões*/
+html {
+  scroll-behavior: smooth;
+}
 /*background*/
 body{
     background-color:  rgb(147, 192, 252);
