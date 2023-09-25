@@ -177,7 +177,7 @@ input[type="submit"]:hover {
         width: 45vw;
     }
     .conteudo-padrao{
-        max-height: 95vh;
+        max-height: 93vh;
         overflow-y: auto;
     }
 }
