@@ -41,18 +41,19 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 /*profissão*/
-.about-me .fullstack{
+.fullstack{
     text-align: center;
     font-weight: bolder;
     font-size: large;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
+    color: #1f2122;
 
 }
 /* sobre simples*/
-.about-me p{
+.texto{
     text-align: center;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
 }
@@ -260,8 +261,18 @@ input[type="submit"]:hover {
     button{
         width: 10vw;
         margin: 2px 0 9px 9px;
+        overflow-y: auto;
+    }
+    .about-me h2{
+        padding-top: 5px;
+    }
+    .about-me h2{
+
     }
     .outro-portfolio{
         display: none;
+    }
+    .conteudo-padrao{
+        overflow-y: auto;
     }
 }
