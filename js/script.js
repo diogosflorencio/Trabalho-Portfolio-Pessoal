@@ -1,5 +1,5 @@
-/*exibindo conteudo sobre mim*/
 /* esse código ficou extremamente simples e repetitivo. foi a primeira coisa que veio a mente, logo melhorarei*/
+/*exibindo conteudo sobre mim*/
 function mostrarSobreMim(){
     ocultarformacao();
     ocultarOcultarPortfolio();
